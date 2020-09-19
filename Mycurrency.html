@@ -1,0 +1,101 @@
+<html>
+    <head>
+        <title>Online Currency Converter</title>
+        <!---The provided link is for using font awesome icons for exchanging the currency-->
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+        <link rel="stylesheet" href="Mycurrency.css" rel="stylesheet">
+
+    </head>
+       
+    <body>
+        <h1>Currency Converter</h1>
+        <br><br>
+
+        <div class="container">
+            <div class="currency">
+                <select id="fromcurrency">
+                    <option id="abrv" value="CAD">CAD</option>
+                    <option id="abrv" value="HKD">HKD</option>
+                    <option id="abrv" value="ISK">ISK</option>
+                    <option id="abrv" value="PHP">PHP</option>
+                    <option id="abrv" value="DKK">DKK</option>
+                    <option id="abrv" value="HUF">HUF</option>
+                    <option id="abrv" value="CZK">CZK</option>
+                    <option id="abrv" value="AUD">AUD</option>
+                    <option id="abrv" value="RON">RON</option>
+                    <option id="abrv" value="SEK">SEK</option>
+                    <option id="abrv" value="IDR">IDR</option>
+                    <option id="abrv" value="INR">INR</option>
+                    <option id="abrv" value="BRL">BRL</option>
+                    <option id="abrv" value="RUB">RUB</option>
+                    <option id="abrv" value="HRK">HRK</option>
+                    <option id="abrv" value="JPY">JPY</option>
+                    <option id="abrv" value="THB">THB</option>
+                    <option id="abrv" value="CHF">CHF</option>
+                    <option id="abrv" value="SGD">SGD</option>
+                    <option id="abrv" value="PLN">PLN</option>
+                    <option id="abrv" value="BGN">BGN</option>
+                    <option id="abrv" value="TRY">TRY</option>
+                    <option id="abrv" value="CNY">CNY</option>
+                    <option id="abrv" value="NOK">NOK</option>
+                    <option id="abrv" value="NZD">NZD</option>
+                    <option id="abrv" value="ZAR">ZAR</option>
+                    <option id="abrv" value="USD">USD</option>
+                    <option id="abrv" value="GBP">GBP</option>
+                    <option id="abrv" value="ILS">ILS</option>
+                    <option id="abrv" value="MXN">MXN</option>
+                    <option id="abrv" value="MYR">MYR</option>
+                    <option id="abrv" value="KRW">KRW</option>
+                    <option id="abrv" value="EUR" selected>EUR</option>
+                </select>
+                <input type="number" id="from_currency_amt" placeholder="0" value=1/>
+            </div>
+            <div class="convert">
+                <button id="exchange_curr">
+                    <i class="fas fa-exchange-alt"></i>
+                </button>
+                <div class="curr_rate" id="rate"></div>
+            </div>
+            <div class="currency">
+                <select id="tocurrency">
+                    <option id="abrv" value="CAD">CAD</option>
+                    <option id="abrv" value="HKD">HKD</option>
+                    <option id="abrv" value="ISK">ISK</option>
+                    <option id="abrv" value="PHP">PHP</option>
+                    <option id="abrv" value="DKK">DKK</option>
+                    <option id="abrv" value="HUF">HUF</option>
+                    <option id="abrv" value="CZK">CZK</option>
+                    <option id="abrv" value="AUD">AUD</option>
+                    <option id="abrv" value="RON">RON</option>
+                    <option id="abrv" value="SEK">SEK</option>
+                    <option id="abrv" value="IDR">IDR</option>
+                    <option id="abrv" value="INR">INR</option>
+                    <option id="abrv" value="BRL">BRL</option>
+                    <option id="abrv" value="RUB">RUB</option>
+                    <option id="abrv" value="HRK">HRK</option>
+                    <option id="abrv" value="JPY">JPY</option>
+                    <option id="abrv" value="THB">THB</option>
+                    <option id="abrv" value="CHF">CHF</option>
+                    <option id="abrv" value="SGD">SGD</option>
+                    <option id="abrv" value="PLN">PLN</option>
+                    <option id="abrv" value="BGN">BGN</option>
+                    <option id="abrv" value="TRY">TRY</option>
+                    <option id="abrv" value="CNY">CNY</option>
+                    <option id="abrv" value="NOK">NOK</option>
+                    <option id="abrv" value="NZD">NZD</option>
+                    <option id="abrv" value="ZAR">ZAR</option>
+                    <option id="abrv" value="USD" selected>USD</option>
+                    <option id="abrv" value="GBP">GBP</option>
+                    <option id="abrv" value="ILS">ILS</option>
+                    <option id="abrv" value="MXN">MXN</option>
+                    <option id="abrv" value="MYR">MYR</option>
+                    <option id="abrv" value="KRW">KRW</option>
+                    <option id="abrv" value="EUR">EUR</option>
+                </select>
+                <input type="number" id="to_currencyamt" placeholder="0"/>
+            </div>
+
+        </div>
+            <script src="Mycurrency.js"></script>
+    </body>
+</html>
